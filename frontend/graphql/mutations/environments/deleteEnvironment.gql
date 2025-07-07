@@ -1,5 +1,0 @@
-mutation DeleteEnv($environmentId: ID!) {
-  deleteEnvironment(environmentId: $environmentId) {
-    ok
-  }
-}

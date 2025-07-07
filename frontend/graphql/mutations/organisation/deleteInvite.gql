@@ -1,5 +1,0 @@
-mutation DeleteOrgInvite($inviteId: ID!) {
-  deleteInvitation(inviteId: $inviteId) {
-    ok
-  }
-}

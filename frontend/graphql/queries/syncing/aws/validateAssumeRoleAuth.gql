@@ -1,8 +1,0 @@
-query ValidateAWSAssumeRoleAuth {
-  validateAwsAssumeRoleAuth {
-    valid
-    message
-    method
-    error
-  }
-} 

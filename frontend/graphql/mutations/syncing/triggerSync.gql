@@ -1,7 +1,0 @@
-mutation TriggerEnvSync($syncId: ID!) {
-  triggerSync(syncId: $syncId) {
-    sync {
-      status
-    }
-  }
-}
