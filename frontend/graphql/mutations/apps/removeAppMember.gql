@@ -1,7 +1,0 @@
-mutation RemoveMemberFromApp($memberId: ID!, $memberType: MemberType, $appId: ID!) {
-  removeAppMember(memberId: $memberId, memberType: $memberType, appId: $appId) {
-    app {
-      id
-    }
-  }
-}

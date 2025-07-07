@@ -1,9 +1,0 @@
-mutation CreateNewSecretFolder($envId: ID!, $name: String!, $path: String!) {
-  createSecretFolder(envId: $envId, name: $name, path: $path) {
-    folder {
-      id
-      name
-      path
-    }
-  }
-}

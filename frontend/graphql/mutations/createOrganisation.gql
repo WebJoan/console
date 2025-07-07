@@ -1,9 +1,0 @@
-mutation CreateOrg($id: ID!, $name: String!, $identityKey: String!, $wrappedKeyring: String!, $wrappedRecovery: String!) {
-  createOrganisation(id: $id, name: $name, identityKey: $identityKey, wrappedKeyring: $wrappedKeyring, wrappedRecovery: $wrappedRecovery) {
-    organisation {
-      id
-      name
-      memberId
-    }
-  }
-}

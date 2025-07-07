@@ -1,3 +1,0 @@
-query TestNomadAuth($credentialId: ID!) {
-  testNomadCreds(credentialId: $credentialId) 
-}

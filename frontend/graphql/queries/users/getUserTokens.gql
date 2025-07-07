@@ -1,9 +1,0 @@
-query GetUserTokens($organisationId: ID!) {
-  userTokens(organisationId: $organisationId) {
-    id
-    name
-    wrappedKeyShare
-    createdAt
-    expiresAt
-  }
-}

@@ -1,7 +1,0 @@
-mutation UpdateAccessPolicies($inputs: [UpdatePolicyInput]) {
-  updateNetworkAccessPolicy(policyInputs: $inputs) {
-    networkAccessPolicy {
-      id
-    }
-  }
-}

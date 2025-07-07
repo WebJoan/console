@@ -1,19 +1,10 @@
-# Phase Console - Backend
+# Backend Skeleton
 
-Django + Graphene + DRF
+This is a minimal Django project intended as a starting point for new applications.
 
-### Generate graphql schema for frontend
-
-```bash
-./manage.py graphql_schema --schema backend.schema.schema --out ../frontend/apollo/schema.graphql
 ```
-
-Dev docker compose instructions:
-
-```bash
-docker compose -f dev-docker-compose.yml exec backend python manage.py graphql_schema --schema backend.schema.schema --out schema.graphql
+cd backend
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
 ```
-
-Overwrite the schema in `/frontend/apollo/schema.graphql`.
-
-You will also need to generate Typescript types, please see `frontend/README.md`.
